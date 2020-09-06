@@ -19,6 +19,8 @@ nav{
 nav a{
     background-color: brown;
     margin-left: 15px;
+}
+a{
     text-decoration: none;
     color: black;
 }
@@ -49,4 +51,12 @@ a:focus{
     display: flex;
     justify-content: space-between;
     background-color: red;
+}
+.f_l{
+    margin-left: 30px;
+    background-color: darkorange;
+}
+.f_r{
+    background-color: darksalmon;
+    margin-right: 30px;
 }
