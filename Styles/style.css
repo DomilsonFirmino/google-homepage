@@ -1,0 +1,52 @@
+/*Cabecario terminado*/
+html, body{
+    width: 100;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.H{
+    background-color: aquamarine;
+    height: 40px;
+}
+nav{
+    background-color: black;
+    margin-top: 10px;
+    float:right;
+    margin-right: 30px;
+}
+nav a{
+    background-color: brown;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:focus{
+    outline: none;
+    text-decoration: underline;
+}
+/*main*/
+/*footer*/
+.f{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: chocolate;
+}
+.l{
+    background-color: crimson;
+}
+.l p{
+    background-color: cornflowerblue;
+    margin-left: 30px;
+}
+.mf{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
