@@ -32,6 +32,15 @@ a:focus{
     text-decoration: underline;
 }
 /*main*/
+.main{
+    text-align: center;
+}
+.i{
+    background-color: darkgreen;
+}
+.bus{
+    background: chocolate;
+}
 /*footer*/
 .f{
     position: absolute;
@@ -41,23 +50,28 @@ a:focus{
     background-color: chocolate;
 }
 .l{
-    background-color: crimson;
+    height: 42px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .l p{
-    background-color: cornflowerblue;
     margin-left: 30px;
 }
 .mf{
-    border-top: 1px solid black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    background-color: red;
 }
 .f_l{
-    margin-left: 30px;
-    background-color: darkorange;
+    height: 30px;
+    margin-top: 5px;
 }
 .f_r{
-    background-color: darksalmon;
+    height: 30px;
+    margin-top: 5px;
+}
+.sp{
     margin-right: 30px;
+    margin-left: 30px;
+    height: 100%;
 }
