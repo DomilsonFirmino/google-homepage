@@ -5,6 +5,7 @@ html, body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 13;
 }
 .H{
     background-color: aquamarine;
@@ -40,6 +41,14 @@ a:focus{
 }
 .bus{
     background: chocolate;
+    height: 2em;
+}
+.bu{
+    height: 100%;
+}
+.bu a:hover{
+    text-decoration: none;
+    text-align: center;
 }
 /*footer*/
 .f{
