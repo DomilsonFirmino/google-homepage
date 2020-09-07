@@ -48,6 +48,7 @@ a:focus{
     margin-left: 30px;
 }
 .mf{
+    border-top: 1px solid black;
     display: flex;
     justify-content: space-between;
     background-color: red;
