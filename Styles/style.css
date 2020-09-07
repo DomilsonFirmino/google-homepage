@@ -11,13 +11,13 @@ html, body{
     background-color: aquamarine;
     height: 40px;
 }
-nav{
+.header{
     background-color: black;
     margin-top: 10px;
     float:right;
     margin-right: 30px;
 }
-nav a{
+.header a{
     background-color: brown;
     margin-left: 15px;
 }
@@ -45,6 +45,7 @@ a:focus{
 }
 .bu{
     height: 100%;
+    width: auto;
 }
 .bu a:hover{
     text-decoration: none;
