@@ -39,6 +39,15 @@ a:focus{
 .i{
     background-color: darkgreen;
 }
+.search{
+    background-color: cornflowerblue;
+    height: 2em;
+}
+.search_bar{
+    height: 100%;
+    border: none;
+    background-color: darkgoldenrod;
+}
 .bus{
     background: chocolate;
     height: 2em;
