@@ -8,17 +8,14 @@ html, body{
     font-size: 13;
 }
 .H{
-    background-color: aquamarine;
     height: 40px;
 }
 .header{
-    background-color: black;
     margin-top: 10px;
     float:right;
     margin-right: 30px;
 }
 .header a{
-    background-color: brown;
     margin-left: 15px;
 }
 a{
@@ -37,24 +34,51 @@ a:focus{
     text-align: center;
 }
 .i{
-    background-color: darkgreen;
+    position: relative;
+    top: 5em;
+}
+input:focus{
+    outline: none;
+}
+input:hover{
+    outline: none;
+}
+.g{
+    width: auto;
+    height: 100px;
 }
 .search{
-    background-color: cornflowerblue;
-    height: 2em;
+    background-color: chocolate;
+    position: relative;
+    top: 6em;
+    height: 40px;
+    display: inline-block;
 }
 .search_bar{
+    margin-top: 1px;
+    width:  35em;
     height: 100%;
-    border: none;
-    background-color: darkgoldenrod;
+    border-radius: 20px;
+    background-color: brown;
+}
+.caixa_texto{
+    background-color: blue;
+    border: 2px solid black;
+    height: 100%;
+    width: 84%;
+    box-sizing: border-box;
 }
 .bus{
-    background: chocolate;
+    position: relative;
+    top: 7.5em;
     height: 2em;
 }
 .bu{
     height: 100%;
     width: auto;
+}
+.bu_1{
+    margin-left: 10px;
 }
 .bu a:hover{
     text-decoration: none;
