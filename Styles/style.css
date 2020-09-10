@@ -6,6 +6,7 @@ html, body{
     margin: 0;
     box-sizing: border-box;
     font-size: 13;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .H{
     height: 40px;
@@ -17,10 +18,11 @@ html, body{
 }
 .header a{
     margin-left: 15px;
+    color: black;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgba(0,0,0,0.54);
 }
 a:hover{
     text-decoration: underline;
@@ -29,7 +31,7 @@ a:focus{
     outline: none;
     text-decoration: underline;
 }
-/*main*/
+
 .main{
     text-align: center;
 }
@@ -57,8 +59,14 @@ input:hover{
     margin-top: 1px;
     width:  32em;
     height: 100%;
-    border-radius: 20px;
-    border: 1px solid black;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+}
+.search_bar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 .caixa_texto{
     margin-top: 1px;
@@ -75,6 +83,19 @@ input:hover{
 .bu{
     height: 100%;
     width: auto;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+.bu:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+.bu:focus{
+    border: 1px solid #4d90fe;
+    outline: none;
 }
 .bu_1{
     margin-left: 10px;
@@ -83,21 +104,33 @@ input:hover{
     text-decoration: none;
     text-align: center;
 }
-/*footer*/
+.lingua{
+    position: relative;
+    top: 8em;
+}
+.lingua a{
+    color: blue;
+}
+.lingua .pri{
+    padding:0 3px;
+}
+
 .f{
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: chocolate;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
 }
 .l{
     height: 42px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
 }
 .l p{
     margin-left: 30px;
+    color: rgba(0,0,0,0.54);
 }
 .mf{
     display: flex;
