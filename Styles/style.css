@@ -33,6 +33,7 @@ a:focus{
 }
 
 .main{
+    min-height: calc(100vh - 80px - 40px);
     text-align: center;
 }
 .i{
@@ -116,10 +117,6 @@ input:hover{
 }
 
 .f{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
 }
