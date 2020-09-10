@@ -11,7 +11,7 @@ html, body{
     height: 40px;
 }
 .header{
-    margin-top: 10px;
+    margin-top: 20px;
     float:right;
     margin-right: 30px;
 }
@@ -48,7 +48,6 @@ input:hover{
     height: 100px;
 }
 .search{
-    background-color: chocolate;
     position: relative;
     top: 6em;
     height: 40px;
@@ -56,17 +55,17 @@ input:hover{
 }
 .search_bar{
     margin-top: 1px;
-    width:  35em;
+    width:  32em;
     height: 100%;
     border-radius: 20px;
-    background-color: brown;
+    border: 1px solid black;
 }
 .caixa_texto{
-    background-color: blue;
-    border: 2px solid black;
-    height: 100%;
+    margin-top: 1px;
+    height: 96%;
     width: 84%;
     box-sizing: border-box;
+    border: none;
 }
 .bus{
     position: relative;
