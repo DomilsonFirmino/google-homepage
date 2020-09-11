@@ -74,7 +74,7 @@ input:hover{
     margin-top: 1px;
     height: 96%;
     width: 84%;
-    border:5px solid blue;
+    border:none;
     outline: none;
 }
 .bus{
