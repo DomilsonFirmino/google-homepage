@@ -47,8 +47,8 @@ input:hover{
     outline: none;
 }
 .g{
+    height: 72px;
     width: auto;
-    height: 100px;
 }
 .search{
     position: relative;
@@ -70,11 +70,12 @@ input:hover{
     border-color: rgba(223,225,229,0);
 }
 .caixa_texto{
+    font-size: 14px;
     margin-top: 1px;
     height: 96%;
     width: 84%;
-    box-sizing: border-box;
-    border: none;
+    border:5px solid blue;
+    outline: none;
 }
 .bus{
     position: relative;
@@ -115,7 +116,6 @@ input:hover{
 .lingua .pri{
     padding:0 3px;
 }
-
 .f{
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
