@@ -1,66 +1,49 @@
-/*Cabecario terminado*/
-html, body{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+*{
     box-sizing: border-box;
-    font-size: 13;
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
 }
-.H{
-    height: 40px;
+body{
+    position: relative;
+    padding-bottom: 94px;
+    min-height: 100vh;
 }
-.header{
-    margin-top: 20px;
-    float:right;
-    margin-right: 30px;
+.head{
+    text-align: right;
+    padding: 10px 30px;
 }
-.header a{
-    margin-left: 15px;
+.head a:hover{
+    text-decoration: underline;
+}
+.head a:focus{
+    text-decoration: underline;
+    outline: none;
+}
+.head a{
+    margin-left: 10px;
+    text-decoration: none;
     color: black;
 }
-a{
-    text-decoration: none;
-    color: rgba(0,0,0,0.54);
-}
-a:hover{
-    text-decoration: underline;
-}
-a:focus{
-    outline: none;
-    text-decoration: underline;
-}
-
 .main{
-    min-height: calc(100vh - 80px - 40px);
     text-align: center;
 }
 .i{
-    position: relative;
-    top: 5em;
-}
-input:focus{
-    outline: none;
-}
-input:hover{
-    outline: none;
+    padding-top: 100px;
 }
 .g{
-    height: 72px;
     width: auto;
+    height: 82px;
 }
 .search{
-    position: relative;
-    top: 6em;
-    height: 40px;
-    display: inline-block;
-    
+    padding: 20px 0px;
 }
 .search_bar{
-    margin-top: 1px;
-    width:  32em;
-    height: 100%;
+    width: 500px;
+    height: 35px;
+    border-radius: 24px;
+    margin: 0 auto;
     background: #fff;
     border: 1px solid #dfe1e5;
     box-shadow: none;
@@ -71,24 +54,22 @@ input:hover{
     border-color: rgba(223,225,229,0);
 }
 .caixa_texto{
-    font-size: 14px;
-    margin-top: 1px;
-    height: 90%;
+    height: 100%;
     width: 84%;
-    border:none;
+    border: none;
     outline: none;
 }
-.bus{
-    position: relative;
-    top: 7.5em;
-    height: 2em;
-}
-.bu{
-    height: 100%;
-    width: auto;
+.buts{
+    padding: 30px 0;
+}.bu{
+    margin: 0px 10px;
+    padding: 10px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
     border-radius: 4px;
     background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
+    border: none;
 }
 .bu:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -97,67 +78,75 @@ input:hover{
     color: #222;
 }
 .bu:focus{
-    border: 1px solid #4d90fe;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
     outline: none;
 }
-.bu_1{
-    margin-left: 10px;
-}
-.bu a:hover{
-    text-decoration: none;
-    text-align: center;
-}
 .lingua{
-    position: relative;
-    top: 8em;
+    padding-bottom: 50px;
 }
 .lingua a{
-    color: blue;
+    padding-right: 10px;
+    text-decoration: none;
 }
-.lingua .pri{
-    padding:0 3px;
+.lingua a:hover{
+    text-decoration: underline;
+    outline: none;
 }
-.f{
+.lingua a:focus{
+    text-decoration: underline;
+    outline: none;
+}
+.foot{
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
-.l{
-    height: 42px;
-    border-top: 1px solid #e4e4e4;
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+.local
+{
+    color: rgba(0,0,0,0.54);
+    padding: 10px 30px;
     border-bottom: 1px solid #e4e4e4;
 }
-.l p{
-    margin-left: 30px;
+.footer{
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+}
+.footer_1 a{
+    color: rgba(0,0,0,0.54);
+    margin-right: 10px;
+}
+.footer_2 a{
     color: rgba(0,0,0,0.54);
 }
-.mf{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.footer_2 a:focus{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    outline: none;
 }
-.f_l{
-    height: 30px;
-    margin-top: 5px;
+.footer_1 a:focus{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    outline: none;
 }
-.f_r{
-    height: 30px;
-    margin-top: 5px;
+.footer_2 .se{
+    margin-right: 10px;
 }
-.sp{
-    margin-right: 30px;
-    margin-left: 30px;
-    height: 100%;
-}
-@media screen and (max-width: 600px)
+@media only screen and (max-width:600px)
 {
-    .search{  
-        width: 20em;
-    }
     .search_bar{
-        width: 100%;
-        height: 100%;
-    }
-    .main{
-        min-height: calc(100vh - 115px - 40px);
+        width: 450px;
     }
 }
